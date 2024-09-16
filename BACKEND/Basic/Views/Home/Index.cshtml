@@ -1,8 +1,22 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+@using BACKEND.Basic.Models
+@model List<Bootcamp>
+@section Header{
+@await Html.PartialAsync("_Header")
+} 
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row">
+        @foreach(var item in Model){
+            if(item.isHome && item.isActive){
+            <div class="col-3">
+                <div class="card">
+                    <img src="~/img/@item.Image" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="card-text">@item.Description</p>
+                        <a asp-controller="Bootcamp" asp-action="Details" asp-route-id="@item.id" class="btn btn-secondary">Detay</a>
+                    </div>
+                </div>
+            </div>
+            }   
+        }
 </div>

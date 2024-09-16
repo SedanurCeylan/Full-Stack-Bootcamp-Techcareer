@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sdnrc\\.nuget\\packages\\": {}
+    "/Users/seda/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sdnrc\\Desktop\\techcareer\\BACKEND\\Basic\\Basic.csproj",
+      "projectUniqueName": "/Users/seda/Documents/Full-Stack-Bootcamp-Techcareer/BACKEND/Basic/Basic.csproj",
       "projectName": "Basic",
-      "projectPath": "C:\\Users\\sdnrc\\Desktop\\techcareer\\BACKEND\\Basic\\Basic.csproj",
-      "packagesPath": "C:\\Users\\sdnrc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sdnrc\\Desktop\\techcareer\\BACKEND\\Basic\\obj\\",
+      "projectPath": "/Users/seda/Documents/Full-Stack-Bootcamp-Techcareer/BACKEND/Basic/Basic.csproj",
+      "packagesPath": "/Users/seda/.nuget/packages/",
+      "outputPath": "/Users/seda/Documents/Full-Stack-Bootcamp-Techcareer/BACKEND/Basic/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sdnrc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/seda/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -62,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
       }
     }
   }
